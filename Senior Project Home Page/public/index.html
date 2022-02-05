@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+  <script type="text/javascript" src="Javascript/firebaseSDKsnippet.js"></script>
+
+  <script type="text/javascript" src="Javascript/Login.js"></script>
+
+
+
+  <title>Farmingdale Esports</title>
+  <link rel="stylesheet" type="text/css" href="loginCSS.css" />
+
+</head>
+
+<body>
+  <div class="login">
+    <h1>Login</h1>
+    <form method="post">
+      <img src="Images/username-icon.jpg" width="30px" height="30px"></img>
+      <input type="text" id="Email" placeholder="Email" required="required" />
+      <img src="Images/password-icon.jpg" width="30px" height="30px"></img>
+      <input type="password" id="Password" placeholder="Password" required="required" />
+      <a href="#" class="forgot">Forgot Password?</a>
+      <div class="filler"></div>
+      <div id = "snackbar">Error Wrong Password or Email</div>
+      <button type="button" onclick="signIn()" id=login class="btn btn-primary btn-block btn-large">Login</button>
+      <button type="button" onClick="javascript:window.location.href='checkBox.html'" id=signUp class="btn btn-primary btn-block btn-large">Sign Up</button>
+      <!-- If failed login, show "User entered wrong information" done-->
+      <!-- If successful login, redirect to individual home page done-->
+      <!-- Sign Up redirect -> user unique homepage-->
+
+    </form>
+  </div>
+</body>
+
+</html>

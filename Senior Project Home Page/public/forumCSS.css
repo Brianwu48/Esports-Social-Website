@@ -1,0 +1,150 @@
+/*start of forum section*/
+
+.columnLayout .mainColumn .container { 
+  background-color: rgba(28, 36, 29, 0.75);
+  padding: 20px;
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+}
+.columnLayout .mainColumn .container .navigate {
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.columnLayout .mainColumn .container .navigate a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.columnLayout .mainColumn .container .forum-options { 
+  float: right;
+}
+.columnLayout .mainColumn .container .forum-options button { 
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(39, 39, 39, 0.75);
+}
+.columnLayout .mainColumn .container .subforum-title  { 
+  display: block;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+  background-color: rgba(39, 39, 39, 0.75);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.columnLayout .mainColumn a {
+  text-decoration: none;
+  color: rgb(67, 126, 40);
+  font-weight: bolder;
+}
+.columnLayout .mainColumn .container a:hover {
+  color: rgb(52, 182, 0);
+  text-decoration: underline;
+}
+.columnLayout .mainColumn h1 {
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.columnLayout .mainColumn .subforum-row {
+  display: grid;
+  grid-template-columns: 15% 62% 10% 13%;
+}
+.columnLayout .mainColumn .subforum-row .subforum-column{
+  padding: 10px;
+  margin: 2px;
+  background-color:rgba(39, 39, 39, 0.75);
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+  height: 100px;
+}
+
+.subforum-description h1 a {
+  width: 100%;
+  max-height: 20px;
+}
+.subforum-description p {
+  width: 100%;
+  max-height: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.subforum-stats span {
+  width: 100%;
+  max-height: 40px;
+}
+.subforum-info p {
+  width: 100%;
+  max-height: 70px;
+}
+
+.center { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subforum-icon { 
+  font-size: 45px;
+}
+
+.General {
+  margin-top: 30px;
+}
+.deleteForum{
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(39, 39, 39, 0.75);
+  
+}
+
+.delete-comment-button {
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(39, 39, 39, 0.75);
+}
+.x-button-box {
+  margin-right: 114px;
+  margin-top: -95px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-color: rgba(15, 15, 15, 0);
+  border-style: solid;
+  border-radius: 16px;
+}
+.x-button {
+  width: 16px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  margin-top: 7px;
+}
+.x1-button {
+  -webkit-transform: rotate(45deg);
+}
+.x2-button {
+  -webkit-transform: rotate(-45deg);
+}
+.x-button-box:hover {
+  cursor: pointer;
+  background-color: rgba(223, 0, 0, 0.15);
+  border-color: rgba(223, 0, 0, 0.15);
+  border-style: solid;
+  border-radius: 16px;
+}

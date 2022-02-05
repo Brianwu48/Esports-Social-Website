@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.columnLayout .mainColumn .container a:hover {
+  color: rgb(52, 182, 0);
+  text-decoration: underline;
+
+}
+.columnLayout .mainColumn a {
+  text-decoration: none;
+  color: rgb(67, 126, 40);
+  font-weight: bolder;
+  text-shadow: 1px 2px 1px rgb(72, 253, 0);
+}
+.thread-container {
+  display: block;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 50px;
+  background-color: rgba(39, 39, 39, 0.75);
+  padding: 5px;
+  margin-top: 10px;
+}
+.heading {
+  border-bottom: solid;
+  border-color: black;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+.heading, .author{
+  text-align: center;
+}
+.body-box {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.stats {
+  padding-left: 650px;
+  font-size: 12px;
+}

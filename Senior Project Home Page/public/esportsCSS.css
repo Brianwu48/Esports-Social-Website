@@ -1,0 +1,65 @@
+.columnLayout .mainColumn .container { 
+  margin: 10px;
+  background-color:rgba(39, 39, 39, 0.75);
+  padding: 10px;
+  height: 97.2%;
+}
+.columnLayout .mainColumn .box {
+  background-color: rgba(39, 39, 39, 0.75);
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 2px;
+}
+.columnLayout .mainColumn .title {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  text-shadow: 3px 2px 2px rgb(0, 0, 0);
+  letter-spacing: 1px;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.columnLayout .mainColumn .options {
+  margin-top: 30px;
+  padding-left: 70px;
+}
+.columnLayout .mainColumn button {
+  width: 100px;
+  color: white;
+  background-image: linear-gradient(#000000,#2c2c2cb6);
+  font-weight: bolder;
+  cursor: pointer;
+}
+.columnLayout .mainColumn .main-container {
+  border-top: none;
+}
+.columnLayout .mainColumn .days {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  text-align: center;
+  height: 60px;
+  border-top: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 2px;
+}
+.columnLayout .mainColumn .calendar-heading {
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  text-align: center;
+  text-decoration: underline;
+  background-image: radial-gradient(#181818,#2c2c2cb6);
+}
+
+.columnLayout .mainColumn .left-border {
+  border-left: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 2px;
+}
+.columnLayout .mainColumn .time{
+  background-image: radial-gradient(#181818,#2c2c2cb6);
+}

@@ -1,0 +1,93 @@
+/*start of forum section*/
+
+.columnLayout .mainColumn .container { 
+  background-color: rgba(28, 36, 29, 0.75);
+  padding: 20px;
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+}
+.columnLayout .mainColumn .container .navigate {
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.columnLayout .mainColumn .container a:hover {
+  color: rgb(52, 182, 0);
+  text-decoration: underline;
+}
+.columnLayout .mainColumn .container .thread-options { 
+  float: right;
+}
+.columnLayout .mainColumn .container .thread-options button { 
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(39, 39, 39, 0.75);
+}
+
+.columnLayout .mainColumn .container .subforum-title { 
+  display: block;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+  background-color: rgba(39, 39, 39, 0.75);
+  padding: 5px;
+  margin-top: 30px;
+}
+.columnLayout .mainColumn a {
+  text-decoration: none;
+  color: rgb(67, 126, 40);
+  font-weight: bolder;
+}
+.columnLayout .mainColumn h1 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.columnLayout .mainColumn .thread-row {
+  display: grid;
+  grid-template-columns: 77% 10% 13%;
+  grid-template-rows: 65% 35%;
+  margin-bottom: -66px;
+}
+
+.columnLayout .mainColumn .thread-row .thread-column{
+  padding: 10px;
+  padding-bottom: 70px;
+  margin: 2px;
+  background-color:rgba(39, 39, 39, 0.75);
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+}
+.columnLayout .mainColumn .thread-row .thread-column{
+  padding: 10px;
+  padding-bottom: 70px;
+  margin: 2px;
+  background-color:rgba(39, 39, 39, 0.75);
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+}
+.columnLayout .mainColumn .thread-row .thread-column .thread, .description, .latestUser {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.columnLayout .mainColumn .thread-row .thread-column .thread-info{
+  float: right;
+  font-size: 12px;
+}
+
+.center { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subforum-icon { 
+  font-size: 45px;
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en-US">
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+  
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  
+    <script type="text/javascript" src="Javascript/Login.js"></script>
+    <script type="text/javascript" src="Javascript/forum.js"></script>
+    <script type="text/javascript" src="Javascript/post.js"></script>
+    <script type="text/javascript" src="Javascript/firebaseSDKsnippet.js"></script>
+<head>
+
+<title>Farmingdale State College Esports</title>
+<link href="homeCSS.css" rel="styleSheet">
+<link href="contactCSS.css" rel="styleSheet">
+
+</head>
+
+<body>
+
+<header>
+<h1 class = "websiteTitle">
+    Farmingdale State College Esports
+</h1>
+</header>
+<ul class = "navigationBar">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Forums.html">Forums</a></li>
+    <li><a class = "current" href="Contacts.html">Contacts</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="ProfilePage.html">My Profile</a></li>
+    <li><a href="Calendar.html">Calendar</a></li>
+    <div class="dropdown">
+        <!--<li><a class = "current" href="Esports.html">E-sports</a></li>-->
+        <button type="button" class="btn btn-primary btn-block btn-large">E-Sports <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <a href="Players.html">Players</a>
+                <a href="Games.html">Games</a>
+                <a href="Merch.html">Merch</a>
+        </div>
+    </div>
+    <!--<li><a href="Esports.html">E-sports</a></li>-->
+    <button type="button" onclick = "logout()" id=logout class="btn btn-primary btn-block btn-large">Logout</button>
+    <div class = "search-box">
+        <input type="text" placeholder="Search..."/>
+    </div>
+</ul>
+<article>
+<article>
+<article>
+    <div class="columnLayout">
+        <div class="leftColumn"></div>
+        <div class="mainColumn">
+            <div class="container">
+                <div class="row-heading">
+                    <h1 class="title"> Contacts </h1>
+                </div>
+                <div class="location">
+                    <h2>Location:</h2>
+                    <img class="building-image" src="Images/gleeson-hall.jpg" width="300px"></img>
+                    <div>2350 Broadhollow Road</div>
+                    <div>Farmingdale, NY 11735-1021</div>
+                    <div>Glesson Hall, Room 123</div>
+                    <h2>Discord:</h2>
+                    <div><a href="https://discord.com/invite/PTt5xs6z39">https://discord.com/invite/PTt5xs6z39</a></div>
+
+                </div>
+                <div class="row-heading">
+                    <h1 class="title"> E-Board Members </h1>
+                </div>
+                <div class="row-container column">
+                    <div class = "box">Icon</div>
+                    <div class = "box">Name</div>
+                    <div class = "box">Position</div>
+                    <div class = "box">Email</div>
+                    <div class = "box">Phone Number</div>
+                </div>
+                <div class="row-container">
+                    <div class = "icon box"></div>
+                    <div class = "name box">Shane Gordon</div>
+                    <div class = "position box">President</div>
+                    <div class = "email box">Email</div>
+                    <div class = "number box">Phone Number</div>
+                </div>
+                <div class="row-container">
+                    <div class = "icon box"></div>
+                    <div class = "name box">Shane Williams</div>
+                    <div class = "position box">Vice President</div>
+                    <div class = "email box">Email</div>
+                    <div class = "number box">Phone Number</div>
+                </div>
+                <div class="row-container">
+                    <div class = "icon box"></div>
+                    <div class = "name box">Lindsey Burns</div>
+                    <div class = "position box">Treasurer</div>
+                    <div class = "email box">Email</div>
+                    <div class = "number box">Phone Number</div>
+                </div>
+                <div class="row-container">
+                    <div class = "icon box"></div>
+                    <div class = "name box">Jordan Ramos</div>
+                    <div class = "position box">Secretary</div>
+                    <div class = "email box">ramojj4@farmingdale.edu</div>
+                    <div class = "number box">516-492-4166</div>
+                </div>
+                <div class="row-container">
+                    <div class = "icon box"></div>
+                    <div class = "name box">Brian Wu</div>
+                    <div class = "position box">Event Coordinator</div>
+                    <div class = "email box">wub@farmingdal.edu</div>
+                    <div class = "number box">646-623-0203</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="rightColumn">
+            <div class = "calendar">
+                <h2>Calendar</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?src=c_601bp27vh5p7flfiavua8o9ku0%40group.calendar.google.com&ctz=America%2FNew_York" width="330" height="330" scrolling="no"></iframe>
+            </div>
+            <div class = "socialMedia">
+                <h2>Come Support Us On:</h2>
+                <div><a href="https://www.instagram.com/farmingdalestate__esports/?hl=en"><img src="Images/instagram-icon.jpg" alt="Instagram" width="100" height="100"></a> </div>
+                <div><a href="https://www.facebook.com/Farmingdale.Esports.1806"><img src="Images/facebook-icon.jpg" alt="Facebook" width="100" height="100"></a> </div>
+                <div><a href="https://twitter.com/fscesports_?lang=en"><img src="Images/twitter-icon.jpg" alt="Twitter" width="100" height="100"></a> </div>
+            </div>
+            <div class = "discord">
+                <h2>Wanna Hang Out?</h2>
+                <div><a href="https://discord.gg/PTt5xs6z39"><img src="Images/discord-icon.jpg" alt="Discord" width="100" height="100"></a> </div>
+            </div>
+            <div class = "livestream">
+                <h2>Check Out Our Twitch!</h2>
+                <div><a href="https://www.twitch.tv/fsc_esports"><img src="Images/twitch-logo.jpg" alt="Twitch Channel" width="125" height="100"></a> </div>
+                <!--twitch video embed goes here-->
+            </div> 
+        </div>
+    </div>
+</article>
+
+
+<aside>
+<figure>
+</figure>
+</aside>
+
+<footer>
+
+</footer>   
+
+
+</body>
+</html>

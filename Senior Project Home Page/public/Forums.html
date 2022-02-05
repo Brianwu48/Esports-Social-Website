@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US">
+          <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+  <script type="text/javascript" src="Javascript/Login.js"></script>
+  <script type="text/javascript" src="Javascript/firebaseSDKsnippet.js"></script>
+<head>
+
+<title>Farmingdale State College Esports</title>
+<link href="forumCSS.css" rel="styleSheet">
+<link href="homeCSS.css" rel="styleSheet">
+
+</head>
+
+<body>
+
+<header>
+<h1 class = "websiteTitle">
+    Farmingdale State College Esports
+</h1>
+</header>
+<ul class = "navigationBar">
+    <li><a href="Home.html">Home</a></li>
+    <li><a class = "current" href="Forums.html">Forums</a></li>
+    <li><a href="Contacts.html">Contacts</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="ProfilePage.html">My Profile</a></li>
+    <li><a href="Calendar.html">Calendar</a></li>
+    <div class="dropdown">
+        <!--<li><a class = "current" href="Esports.html">E-sports</a></li>-->
+        <button type="button" class="btn btn-primary btn-block btn-large">E-Sports <i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+            <a href="Players.html">Players</a>
+                <a href="Games.html">Games</a>
+                <a href="Merch.html">Merch</a>
+        </div>
+    </div>
+    <!--<li><a href="Esports.html">E-sports</a></li>-->
+    <button type="button" onclick = "logout()" id=logout class="btn btn-primary btn-block btn-large">Logout</button>
+    <div class = "search-box">
+        <input type="text" placeholder="Search..."/>
+    </div>
+</ul>
+
+
+<div class="columnLayout">
+    <div class="leftColumn"></div>
+    <div class="mainColumn">
+        <body>
+            <div class= "container">
+                <div class="navigate">
+                    <span><a href="Forums.html"><i>Forums</i></a></span>
+                </div>
+                <div class="forum-options">
+                    <button type="button" onclick="redirectNewForumPage()">New Forum</button>                
+                </div>
+                <div class="General">
+                    <div class="subforum-title">
+                        <h1>General Information</h1>
+                    </div>
+  
+                </div> 
+                <div class="Games">
+                    <div class="subforum-title">
+                        <h1>Games</h1>
+                    </div>
+                </div> 
+                <div class="Misc">
+                    <div class="subforum-title">
+                        <h1>Misc</h1>
+                    </div>
+  
+                </div> 
+
+            </div>
+         
+        </body>
+    </div>
+    <div class="rightColumn">
+        <div class = "calendar">
+            <h2>Calendar</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?src=c_601bp27vh5p7flfiavua8o9ku0%40group.calendar.google.com&ctz=America%2FNew_York" width="330" height="330" scrolling="no"></iframe>
+        </div>
+        <div class = "socialMedia">
+            <h2>Come Support Us On:</h2>
+            <div><a href="https://www.instagram.com/farmingdalestate__esports/?hl=en"><img src="Images/instagram-icon.jpg" alt="Instagram" width="100" height="100"></a> </div>
+            <div><a href="https://www.facebook.com/Farmingdale.Esports.1806"><img src="Images/facebook-icon.jpg" alt="Facebook" width="100" height="100"></a> </div>
+            <div><a href="https://twitter.com/fscesports_?lang=en"><img src="Images/twitter-icon.jpg" alt="Twitter" width="100" height="100"></a> </div>
+        </div>
+        <div class = "discord">
+            <h2>Wanna Hang Out?</h2>
+            <div><a href="https://discord.gg/PTt5xs6z39"><img src="Images/discord-icon.jpg" alt="Discord" width="100" height="100"></a> </div>
+        </div>
+        <div class = "livestream">
+            <h2>Check Out Our Twitch!</h2>
+            <div><a href="https://www.twitch.tv/fsc_esports"><img src="Images/twitch-logo.jpg" alt="Twitch Channel" width="125" height="100"></a> </div>
+            <!--twitch video embed goes here-->
+        </div>
+        
+    </div>
+</div>
+
+<footer>
+   
+</footer>   
+</html>
+
+<script src="Javascript/renderForums.js"></script>     

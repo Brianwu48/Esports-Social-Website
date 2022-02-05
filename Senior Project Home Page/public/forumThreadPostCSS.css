@@ -1,0 +1,149 @@
+/*start of forum section*/
+
+.columnLayout .mainColumn .container { 
+  background-color: rgba(28, 36, 29, 0.75);
+  padding: 20px;
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+}
+.columnLayout .mainColumn .container .navigate {
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.columnLayout .mainColumn .container a:hover {
+  color: rgb(52, 182, 0);
+  text-decoration: underline;
+
+}
+.columnLayout .mainColumn a {
+  text-decoration: none;
+  color: rgb(67, 126, 40);
+  font-weight: bolder;
+}
+.columnLayout .mainColumn .container .post { 
+  display: block;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+  background-color: rgba(39, 39, 39, 0.75);
+  padding: 5px;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+.columnLayout .mainColumn h1 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: -7px;
+  padding-left: 5px;
+  font-style: italic;
+  word-wrap: break-word;
+}
+.columnLayout .mainColumn h1 a {
+  text-decoration: underline;
+}
+.columnLayout .mainColumn h2 {
+  font-size: 12px;
+  padding-left: 25px;
+}
+.columnLayout .mainColumn h2 a {
+  text-decoration: underline;
+  font-style: italic;
+}
+.hide {
+  overflow: hidden;
+}
+.columnLayout .mainColumn .container .post #post-title { 
+  text-decoration: underline;
+}
+.columnLayout .mainColumn .container .post .post-body { 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.columnLayout .mainColumn .container .post .post-options { 
+  display: inline-block;
+  margin-left: 25px;
+}
+.columnLayout .mainColumn .container .post .post-options button {
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(39, 39, 39, 0.75);
+}
+.columnLayout .mainColumn .container .post .post-stats { 
+  float: right;
+}
+.columnLayout .mainColumn .container .comment-button  {
+  margin-top: 5px;
+  padding: 10px;
+  text-align: right;
+}
+.columnLayout .mainColumn .container .comment-button .create-button {
+  font-weight: bolder;
+  cursor: pointer;
+}
+.columnLayout .mainColumn .container .comment textarea {
+  margin-top: 5px;
+  width: 100%;
+  min-height: 100px;
+  background: rgba(75, 70, 70, 0.75);
+  color: white;
+}
+.columnLayout .mainColumn .container .comment { 
+  display: block;
+  border: solid;
+  border-color: rgba(15, 15, 15, 0.75);
+  border-radius: 5px;
+  background-color: rgba(39, 39, 39, 0.75);
+  padding: 5px;
+  margin-top: 3px;
+  word-wrap: break-word;
+}
+.columnLayout .mainColumn .container .comment .comment-body { 
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.columnLayout .mainColumn .container .comment .comment-stats { 
+  text-align: right;
+}
+.delete-forum-button {
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(39, 39, 39, 0.75);
+}
+.x-button-box {
+  margin-left: 965px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-color: rgba(15, 15, 15, 0);
+  border-style: solid;
+  border-radius: 16px;
+}
+.x-button {
+  width: 16px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  margin-top: 7px;
+}
+.x1-button {
+  -webkit-transform: rotate(45deg);
+}
+.x2-button {
+  -webkit-transform: rotate(-45deg);
+}
+.x-button-box:hover {
+  cursor: pointer;
+  background-color: rgba(223, 0, 0, 0.15);
+  border-color: rgba(223, 0, 0, 0.15);
+  border-style: solid;
+  border-radius: 16px;
+}
