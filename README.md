@@ -12,6 +12,7 @@ Languages and Tools
 -Firebase (Database)  
 
 Goals and functions  
+-Basic Login and Account info  
 -Automate member registration  
 -Calendar and schedule planning displayed from database  
 -Forum posting to allow communication and news to all members  
