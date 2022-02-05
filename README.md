@@ -20,4 +20,5 @@ Goals and functions
 -Uniform team registrations  
 -Organize and centralize information  
 
-Unfortunately due to time constraints, only half of these goals were achieved. The website is still in its beta stages.
+Unfortunately due to time constraints, only half of these goals were achieved. The website is still in its beta stages.  
+The website was briefly launched for demostration purposes.
