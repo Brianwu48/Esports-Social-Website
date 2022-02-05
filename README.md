@@ -2,7 +2,7 @@
 
 Senior Project
 
-The goal is to create a website designed to help centralize the Esports' Club workload and automate tasks related to the Esports Club. Doing so will efficiently and reliably process daily tasks and give up to date information to the council of the club that help with effective decision making.
+The goal is to create a website designed to help centralize the Esports' Club workload and automate tasks related to the Esports Club. The successful deployment of said website will efficiently and reliably process daily tasks. Additionally, it will give up to date information to the council of the club that help with effective decision making.
 
 
 Languages and Tools  
