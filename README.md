@@ -12,13 +12,13 @@ Languages and Tools
 -Firebase (Database)  
 
 Goals and functions  
--Basic Login and Account info  (Achieved)  
--Automate member registration  (Achieved)  
--Calendar and schedule planning displayed from database  (Incomplete)  
--Forum posting to allow communication and news to all members  (Achieved)  
--Have a database to keep track of members and other important data (Events, meeting dates, deadlines)  (Achieved)  
--Uniform team registrations  (Incomplete)  
--Organize and centralize information  (Incomplete)  
+(Achieved)-Basic Login and Account info    
+(Achieved)-Automate member registration    
+(Incomplete)-Calendar and schedule planning displayed from database    
+(Achieved)-Forum posting to allow communication and news to all members    
+(Achieved)-Have a database to keep track of members and other important data (Events, meeting dates, deadlines)    
+(Incomplete)-Uniform team registrations    
+(Incomplete)-Organize and centralize information    
 
 Unfortunately due to time constraints, only half of these goals were achieved. The website is still in its beta stages.  
 The website was briefly launched for demostration purposes.
